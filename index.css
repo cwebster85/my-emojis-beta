@@ -1,0 +1,113 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient( 109.6deg,  rgba(83,94,161,1) 44.5%, rgba(188,14,107,1) 100.2% );    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#emoji-container {
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#emoji-container span {
+    margin: 10px;
+    font-size: 60px;
+}
+
+#push-btn, #unshift-btn {
+    background-color: #80D87F;
+    position: absolute;
+    margin-left: 415px;
+    margin-top: -47px;
+    font-size: 24px;
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+    position: absolute;
+    margin-left: -26px;
+    margin-top: 1px;
+    font-size: 24px;
+    width: 32px;
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+}
+
+button {
+    font-family: Baloo;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+#container {
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 67%, #2BFF88 95%);
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.emoji-search {
+    display: flex;
+}
+
+.emoji-search input {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    padding-left: 15px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.emoji-search img {
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    margin-left: -40px;
+    cursor: pointer;
+}
+
+.emoji {
+    margin-left: 3.5px;
+    margin-top: 10px;
+    height: 0px;
+    width: 400px;
+    border-radius: 5px;
+    background: white;
+    overflow-y: scroll;
+    cursor: pointer;
+    transition: 0.5s height;
+}
+
+.emoji::-webkit-scrollbar{
+    width: 0px;
+}
+
+.emoji span {
+    margin-left: 9.8px;
+    font-size: 26px;
+}

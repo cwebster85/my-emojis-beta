@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "dependencies": {
+    "@picmo/renderer-twemoji": "^5.7.6",
+    "emoji-picker-element": "^1.15.1",
+    "picmo": "^5.7.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.0",
+    "babel-loader": "^7.0",
+    "babel-preset-env": "*",
+    "babel-preset-react": "*",
+    "webpack": "^2.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  }
+}
